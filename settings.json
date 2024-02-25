@@ -1,0 +1,21 @@
+// Go to folder C:\Users\name_user\AppData\Roaming\Code\User and paste this config
+{
+    "git.autofetch": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "[java]": {
+        "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+    },
+    "window.zoomLevel": 1,
+    "sshfs.configs": [],
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-great-icons",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

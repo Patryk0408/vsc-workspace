@@ -1,0 +1,54 @@
+// Go to folder C:\Users\name_user\AppData\Roaming\Code\User\snippets and paste this config
+{
+    "div class": {
+        "scope": "html, twig, smarty",
+        "prefix": "dc",
+        "body": ["<div class=''></div>"],
+        "description": "Div with class."
+    },
+    "div id": {
+        "scope": "html, twig, smarty",
+        "prefix": "di",
+        "body": ["<div id=''></div>"],
+        "description": "Div with class."
+    },
+    "div id and class": {
+        "scope": "html, twig, smarty",
+        "prefix": "dic",
+        "body": ["<div id='' class=''></div>"],
+        "description": "Div with id and class."
+    },
+    "console log": {
+        "scope": "javascript, typescript",
+        "prefix": "cl",
+        "body": "console.log();",
+        "description": "Log output to console."
+    },
+    "dump php": {
+        "scope": "php",
+        "prefix": "dd",
+        "body": [
+            "dump();",
+            "exit;"
+        ],
+        "description": "Dump for php."
+    },
+    "dump template": {
+        "scope": "smarty, twig",
+        "prefix": "dd",
+        "body": "{dump()}",
+        "description": "Dump for templates - smarty and twig."
+    },
+    "if my ip address php": {
+        "scope": "php",
+        "prefix": "ip",
+        "body": "if ($$_SERVER['REMOTE_ADDR'] == 'addresss') {}",
+        "description": "If todo function only on my ip address in php."
+    },
+    "if my ip address template": {
+        "scope": "smarty, twig",
+        "prefix": "ip",
+        "body": "{if $$smarty.server.REMOTE_ADDR == 'address'}{/if}",
+        "description": "If todo function only on my ip address in templates."
+    }
+}
