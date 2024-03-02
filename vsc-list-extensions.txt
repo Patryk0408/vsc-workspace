@@ -10,7 +10,6 @@ List of my extensions:
     formulahendry.auto-rename-tag
     kelvin.vscode-sshfs
     mblode.twig-language-2
-    ms-vscode-remote.remote-wsl
     mwpb.java-prettier-formatter
     redhat.fabric8-analytics
     redhat.java
@@ -24,7 +23,6 @@ List of my extensions:
     vscjava.vscode-maven
     xdebug.php-debug
     xdebug.php-pack
-    zhuangtongfa.material-theme
     zobo.php-intellisense
 
 Command to install all of extensions:
